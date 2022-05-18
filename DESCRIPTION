@@ -1,0 +1,24 @@
+Package: islay
+Type: Package
+Title: Archaeological Data from Islay
+Version: 0.1.0
+Authors@R: person(
+             "Joe", "Roe",
+             email = "joe@joeroe.io",
+             role = role,
+             comment = c(ORCID = "0000-0002-1011-1244")
+           )
+Description: Various datasets on the prehistoric archaeology of the Scottish
+    island of Islay, recorded by the 'Southern Hebrides Mesolithic Project'.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Imports:
+    Rdpack
+Suggests: 
+    readr
+RdMacros: Rdpack
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
