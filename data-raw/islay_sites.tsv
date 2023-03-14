@@ -1,92 +1,45 @@
-site_name	site_code	provenance	period
-Newton		Literature	
-Kilellan		Literature	
-Gleann Mor A		Literature	
-Gleann Mor B		Literature	
-Gleann Mor C		Literature	
-Gleann Mor D		Literature	
-Gleann Mor E		Literature	
-Bolsay		Literature	
-Scarrabus		Collection	ML
-Coulererach		Collection	M
-Sanaigmore		Collection	L
-Kindrochid 4	KRD4	Collection	M
-Kindrochid ditch		Collection	M
-Black Park Quarry		Quarry	PM
-Loch Gorm Quarry	LGM3	Quarry	U
-Coultorsay		Collection	
-Loch Gorm 1	LGM1	Fieldwalking	ML
-Loch Gorm 2	LGM2	Fieldwalking	ML
-Loch Gorm 4	LGM4	Fieldwalking	U
-Loch Gorm 5	LGM5	Fieldwalking	M
-Loch Gorm 6	LGM6	Fieldwalking	L
-Loch Gorm 8	LGM8	Fieldwalking	U
-Loch Gorm 9	LGM9	Fieldwalking	ML
-Loch Gorm 10	LGM10	Fieldwalking	ML
-Loch Gorm 11	LGM11	Fieldwalking	U
-Loch Gorm 12	LGM12	Fieldwalking	U
-Loch Gorm 13	LGM13	Fieldwalking	U
-Loch Gorm 14	LGM14	Fieldwalking	
-Kindrochid 1	KRD1	Fieldwalking	U
-Kindrochid 2	KRD2	Fieldwalking	ML
-Kindrochid 3	KRD3	Fieldwalking	ML
-Bowmore 1	BOW1	Fieldwalking	U
-Bowmore 2	BOW2	Fieldwalking	L
-Bowmore 3	BOW3	Fieldwalking	U
-Bowmore 4	BOW4	Fieldwalking	PM
-Bowmore 5	BOW5	Fieldwalking	U
-Bowmore 7	BOW7	Fieldwalking	L
-Bowmore 8	BOW8	Fieldwalking	L
-Bowmore 9	BOW9	Fieldwalking	M
-Bowmore 10	BOW10	Fieldwalking	M
-Bowmore 12	BOW12	Fieldwalking	U
-Bowmore 14	BOW14	Fieldwalking	U
-Bowmore 15	BOW15	Fieldwalking	U
-Bowmore 16	BOW16	Fieldwalking	M
-Bowmore 17	BOW17	Fieldwalking	U
-Bowmore 18	BOW18	Fieldwalking	U
-Bowmore 19	BOW19	Fieldwalking	U
-Mulindry 1	MUL1	Fieldwalking	L
-Mulindry 2	MUL2	Fieldwalking	U
-Mulindry 3	MUL3	Fieldwalking	U
-Mulindry 4	MUL4	Fieldwalking	U
-Mulindry 5	MUL5	Fieldwalking	U
-Mulindry 6	MUL6	Fieldwalking	U
-Mulindry 7	MUL7	Fieldwalking	U
-Mulindry 8	MUL8	Fieldwalking	U
-Mulindry 9	MUL9	Fieldwalking	U
-Mulindry 10	MUL10	Fieldwalking	ML
-Brigend 1	BRG1	Fieldwalking	ML
-Brigend 2	BRG2	Fieldwalking	U
-Brigend 3	BRG3	Fieldwalking	L
-Brigend 4	BRG4	Fieldwalking	U
-Brigend 5	BRG5	Fieldwalking	ML
-Brigend 6	BRG6	Fieldwalking	L
-Brigend 7	BRG7	Fieldwalking	M
-Brigend 8	BRG8	Fieldwalking	L
-Brigend 9	BRG9	Fieldwalking	PM
-Brigend 11	BRG11	Fieldwalking	ML
-Brigend 12	BRG12	Fieldwalking	U
-Brigend 13	BRG13	Fieldwalking	L
-Brigend 14	BRG14	Fieldwalking	ML
-Brigend 15	BRG15	Fieldwalking	U
-Brigend 16	BRG16	Fieldwalking	U
-Brigend 17	BRG17	Fieldwalking	U
-Brigend 18	BRG18	Fieldwalking	U
-Kiells 1	KLS1	Fieldwalking	L
-Kiells 2	KLS2	Fieldwalking	L
-Kiells 3	KLS3	Fieldwalking	PM
-Kiells 4	KLS4	Fieldwalking	U
-Gruinart 1	GRU1	Fieldwalking	L
-Gruinart 4	GRU4	Fieldwalking	U
-Gruinart 5	GRU5	Fieldwalking	U
-Gruinart 6	GRU6	Fieldwalking	U
-Gruinart 7	GRU7	Fieldwalking	M
-Gruinart 8	GRU8	Fieldwalking	U
-Gruinart 9	GRU9	Fieldwalking	L
-Gruinart 10	GRU10	Fieldwalking	U
-Gruinart 12	GRU12	Fieldwalking	U
-Gruinart 13	GRU13	Fieldwalking	ML
-Gruinart 14	GRU14	Fieldwalking	U
-Carrabus 1	CAR1	Fieldwalking	U
-Port Charlotte 1	PCH1	Fieldwalking	L
+site_code	site_name	period	longitude	latitude	total_chipped_stone	source
+Black Park Quarry	Black Park Quarry	Mesolithic	-6.3215413459144125	55.79313128124304	NA	NA
+GRU1	Gruinart 1	Later Prehistoric	-6.315241737834202	55.813897041007515	31	Fieldwalking
+GRU9	Gruinart 9	Later Prehistoric	-6.312713441077705	55.82027946085079	35	Fieldwalking
+Aoradh	Aoradh	Mesolithic	-6.353596597867542	55.82546150800408	NA	NA
+Killellan	Killellan	Mesolithic & Later Prehistoric	-6.345683390493521	55.85207587144865	NA	NA
+KRD2	Kindrochid 2	Mesolithic & Later Prehistoric	-6.419140946117117	55.83521078758603	186	Fieldwalking
+Sanaigmore	Sanaigmore	Later Prehistoric	-6.417821479990773	55.849502340307474	NA	NA
+Kindrochid ditch	Kindrochid ditch	Mesolithic	-6.41904044632312	55.83173619600854	NA	NA
+KRD4	Kindrochid 4	Mesolithic	-6.4248833652726844	55.83136014334956	NA	Collection
+KRD3	Kindrochid 3	Mesolithic & Later Prehistoric	-6.455126805057909	55.825628804012986	103	Fieldwalking
+Coulererach	Coulererach	Mesolithic	-6.458889115409607	55.8019724055199	NA	NA
+LGM6	Loch Gorm 6	Later Prehistoric	-6.457180243576183	55.789612035944174	98	Fieldwalking
+LGM5	Loch Gorm 5	Mesolithic	-6.444913639038829	55.787738131586174	197	Fieldwalking
+LGM2	Loch Gorm 2	Mesolithic & Later Prehistoric	-6.438199231500998	55.78814679507783	166	Fieldwalking
+LGM3	Loch Gorm Quarry	Mesolithic & Later Prehistoric	-6.430020876719651	55.788607946389334	NA	Quarry
+LGM9	Loch Gorm 9	Mesolithic & Later Prehistoric	-6.406236608225574	55.79923633350656	39	Fieldwalking
+LGM1	Loch Gorm 1	Mesolithic & Later Prehistoric	-6.398566621465594	55.799014569722154	214	Fieldwalking
+LGM14	Loch Gorm 14	Later Prehistoric	-6.392068094976342	55.798750411975014	48	Fieldwalking
+Gleann Mor	Gleann Mor	Mesolithic	-6.412600760269591	55.74120311724463	NA	NA
+PCH1	Port Charlotte 1	Later Prehistoric	-6.381863535958527	55.744624007386776	37	Fieldwalking
+Bolsay Farm	Bolsay Farm	Mesolithic & Later Prehistoric	-6.425432369449243	55.72749028623993	NA	NA
+BOW9	Bowmore 9	Mesolithic	-6.288543788991203	55.72904187424678	324	Fieldwalking
+BOW10	Bowmore 10	Mesolithic	-6.271420524279784	55.757628963175115	254	Fieldwalking
+BOW16	Bowmore 16	Mesolithic	-6.265123927834426	55.76182285536623	23	Fieldwalking
+BOW7	Bowmore 7	Later Prehistoric	-6.235980225662387	55.7585265666028	14	Fieldwalking
+BOW8	Bowmore 8	Later Prehistoric	-6.23095217912062	55.75820322863991	4	Fieldwalking
+MUL1	Mulindry 1	Later Prehistoric	-6.196414106698432	55.75657406040645	1	Fieldwalking
+MUL10	Mulindry 10	Mesolithic & Later Prehistoric	-6.184844101265733	55.750013603692985	23	Fieldwalking
+BRG5	Brigend 5	Mesolithic & Later Prehistoric	-6.238825779658884	55.78741092192886	46	Fieldwalking
+BRG1	Brigend 1	Mesolithic & Later Prehistoric	-6.236101162236212	55.79479203789625	26	Fieldwalking
+BRG11	Brigend 11	Mesolithic & Later Prehistoric	-6.237465304494178	55.807331663315	510	Fieldwalking
+BRG14	Brigend 14	Mesolithic & Later Prehistoric	-6.23228143094227	55.80833855546881	89	Fieldwalking
+Scarrabus	Scarrabus	Mesolithic & Later Prehistoric	-6.22195535714635	55.80803164753915	NA	NA
+BOW2	Bowmore 2	Later Prehistoric	-6.277272237351286	55.75742507431993	31	Fieldwalking
+BRG6	Brigend 6	Later Prehistoric	-6.22278948414596	55.79674124422	9	Fieldwalking
+BRG13	Brigend 13	Later Prehistoric	-6.228899187863652	55.79073441328354	37	Fieldwalking
+BRG3	Brigend 3	Later Prehistoric	-6.243667342434303	55.79138399138542	57	Fieldwalking
+BRG9	Brigend 9	Mesolithic	-6.218482250065206	55.805832454882484	35	Fieldwalking
+BRG7	Brigend 7	Mesolithic	-6.214438147276071	55.798353164559984	7	Fieldwalking
+BOW4	Bowmore 4	Mesolithic	-6.218769903924886	55.77319675005435	79	Fieldwalking
+BRG8	Brigend 8	Later Prehistoric	-6.21059736750356	55.8036189575108	5	Fieldwalking
+KLS1	Kiells 1	Later Prehistoric	-6.129491480747488	55.83734218363397	60	Fieldwalking
+KLS2	Kiells 2	Later Prehistoric	-6.125250387137992	55.83897514524992	38	Fieldwalking
+KLS3	Kiells 3	Mesolithic	-6.121284713767817	55.84043310797889	26	Fieldwalking
