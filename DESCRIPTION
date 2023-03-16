@@ -18,7 +18,8 @@ Depends:
 Imports:
     Rdpack
 Suggests: 
-    readr
+    readr,
+    sf
 RdMacros: Rdpack
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.2
