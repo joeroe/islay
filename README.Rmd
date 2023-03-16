@@ -1,0 +1,61 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# islay
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of the islay package is to provide a high-quality teaching dataset for archaeologists using R.
+It includes various datasets relating to the prehistoric archaeology of the Scottish island of Islay (pronounced "EYE-luh") and recorded by the 'Southern Hebrides Mesolithic Project' (Mithen et al. 2000).
+
+```{r readme-figure, echo=FALSE}
+library(islay)
+library(ggplot2)
+suppressMessages(library(sf))
+
+periods <- c("Mesolithic", "Mesolithic & Later Prehistoric", "Later Prehistoric")
+
+ggplot(islay_sites) +
+  geom_sf(data = islay_land) +
+  geom_point(aes(longitude, latitude, colour = factor(period, periods))) +
+  scale_colour_brewer(palette = "Set1", 
+                      guide = guide_legend(title = NULL)) +
+  coord_sf(crs = 27700, default_crs = 4326, label_graticule = "") +
+  labs(x = NULL, y = NULL) +
+  theme_minimal() +
+  theme(
+    legend.position = c(0, 0),
+    legend.justification = c(0, 0)
+  )
+```
+
+## Installation
+
+You can install the development version of islay from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("joeroe/islay")
+```
+
+## Example
+
+The package currently includes one dataset, `islay_sites`:
+
+```{r eg-islay-sites}
+library(islay)
+islay_sites
+```
