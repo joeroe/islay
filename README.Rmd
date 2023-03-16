@@ -21,7 +21,7 @@ knitr::opts_chunk$set(
 The goal of the islay package is to provide a high-quality teaching dataset for archaeologists using R.
 It includes various datasets relating to the prehistoric archaeology of the Scottish island of Islay (pronounced "EYE-luh") and recorded by the 'Southern Hebrides Mesolithic Project' (Mithen et al. 2000).
 
-```{r readme-figure, echo=FALSE}
+```{r readme-figure, echo=FALSE, dpi=150, dev.args=list(bg="transparent")}
 library(islay)
 library(ggplot2)
 suppressMessages(library(sf))
@@ -38,7 +38,9 @@ ggplot(islay_sites) +
   theme_minimal() +
   theme(
     legend.position = c(0, 0),
-    legend.justification = c(0, 0)
+    legend.justification = c(0, 0),
+    panel.background = element_rect(fill = "transparent", colour = NA),
+    plot.background = element_rect(fill = "transparent", colour = NA)
   )
 ```
 
