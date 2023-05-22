@@ -12,6 +12,7 @@ A data frame with 75 rows and 10 variables:
 \item{period}{Character. Period assigned to the site by expert analysis. One of: \code{"Mesolithic"}, \code{"Mesolithic & Later Prehistoric"}, \code{"Later Prehistoric"}, or \code{NA}.}
 \item{area}{Numeric. Area of the site in square meters.}
 \item{flakes,blades,chunks,cores,pebbles,retouched}{Numeric. Frequency of lithic components recorded at the site.}
+\item{total}{Numeric. Total number of lithics recoverd from the site (sum of \code{flakes:retouched}).}
 }
 }
 \usage{

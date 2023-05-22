@@ -22,4 +22,4 @@ Suggests:
     sf
 RdMacros: Rdpack
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.2
+RoxygenNote: 7.2.3

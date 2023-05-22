@@ -11,6 +11,7 @@
 #'   \item{period}{Character. Period assigned to the site by expert analysis. One of: `"Mesolithic"`, `"Mesolithic & Later Prehistoric"`, `"Later Prehistoric"`, or `NA`.}
 #'   \item{area}{Numeric. Area of the site in square meters.}
 #'   \item{flakes,blades,chunks,cores,pebbles,retouched}{Numeric. Frequency of lithic components recorded at the site.}
+#'   \item{total}{Numeric. Total number of lithics recoverd from the site (sum of `flakes:retouched`).}
 #' }
 #'
 #' @references
